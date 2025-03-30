@@ -18,7 +18,7 @@ export default function Hero() {
           <p className="text-7xl font-extrabold">
             Get your special sale up to 50% off.
           </p>
-          <button className="border mt-8 px-8 py-2 rounded-full hover:bg-purple-500 cursor-pointer hover:font-bold">
+          <button className="border mt-8 px-8 py-2 hover:bg-purple-500 cursor-pointer hover:font-bold">
             Shop Now
           </button>
         </div>
