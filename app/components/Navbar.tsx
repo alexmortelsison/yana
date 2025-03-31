@@ -2,6 +2,7 @@ import Image from "next/image";
 import Socials from "./Socials";
 import Link from "next/link";
 import Login from "./Login";
+import NavbarMenu from "./NavbarMenu";
 
 export default function Navbar() {
   return (
@@ -18,7 +19,9 @@ export default function Navbar() {
         </Link>
         <Socials />
       </div>
-      <div>B</div>
+      <div>
+        <NavbarMenu />
+      </div>
       <div>
         <Login />
       </div>
