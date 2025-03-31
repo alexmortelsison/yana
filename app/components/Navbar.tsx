@@ -7,7 +7,7 @@ import NavbarMenu from "./NavbarMenu";
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center max-w-[1600px] mx-auto pt-8 sticky top-0">
-      <div className="flex space-x-16">
+      <div className="flex space-x-24">
         <Link href="/">
           <Image
             src={"/Yana.png"}

@@ -8,7 +8,7 @@ export default function Hero() {
           src={"/bg.png"}
           alt="bg"
           fill
-          className="object-cover -z-50"
+          className="object-cover -z-50 brightness-30"
           priority
           quality={100}
         />

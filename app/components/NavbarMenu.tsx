@@ -33,7 +33,7 @@ export default function NavbarMenu() {
               className={`${
                 pathName === link.href
                   ? "font-bold text-white underline underline-offset-8"
-                  : "text-gray-500"
+                  : "text-gray-500 hover:underline underline-offset-8"
               }`}
             >
               {link.name}
